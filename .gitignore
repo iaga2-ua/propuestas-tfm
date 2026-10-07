@@ -1,0 +1,17 @@
+# Entornos, credenciales y archivos locales
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+# Snapshots y resultados regenerables; conservar data/README.md
+/data/bronze/
+/data/silver/
+/data/gold/
+/work/
