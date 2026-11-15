@@ -1,0 +1,8 @@
+{
+  "best_baseline": "volatilidad",
+  "best_ml": "logistica",
+  "selected": "volatilidad",
+  "validation_improvement_ml": -0.006024096385542188,
+  "minimum_required_improvement": 0.01,
+  "selection_uses_test": false
+}

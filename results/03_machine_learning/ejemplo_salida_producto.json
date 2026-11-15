@@ -1,0 +1,109 @@
+{
+  "as_of": "2024-12-31",
+  "historical_example": true,
+  "method": "volatilidad",
+  "requires_fitted_model": false,
+  "trained_label_through": null,
+  "ml_comparison_labels_through": "2023-12-29",
+  "horizon": "next_market_session",
+  "event": "absolute_adjusted_return_at_least_2pct",
+  "daily_review_budget": 2,
+  "score_is_calibrated_probability": false,
+  "score_meaning": "Higher scores rank earlier for human review; scale depends on method.",
+  "context_is_causal_explanation": false,
+  "cautions": [
+    "Historical snapshot, not a live alert.",
+    "No direction or trading recommendation.",
+    "Retrospective adjusted prices."
+  ],
+  "assets": [
+    {
+      "symbol": "GOOGL",
+      "ranking_score": 0.023000064152603295,
+      "rank": 1,
+      "priority": true,
+      "context": {
+        "relative_volume": 0.5561437971240002,
+        "daily_return": -0.010144404004727825,
+        "volatility_20": 0.023000064152603295
+      }
+    },
+    {
+      "symbol": "NVDA",
+      "ranking_score": 0.02086532498716388,
+      "rank": 2,
+      "priority": true,
+      "context": {
+        "relative_volume": 0.7921192734408157,
+        "daily_return": -0.023274595495831107,
+        "volatility_20": 0.02086532498716388
+      }
+    },
+    {
+      "symbol": "META",
+      "ranking_score": 0.018877163479262844,
+      "rank": 3,
+      "priority": false,
+      "context": {
+        "relative_volume": 0.4680734920871902,
+        "daily_return": -0.00969109171459992,
+        "volatility_20": 0.018877163479262844
+      }
+    },
+    {
+      "symbol": "AMZN",
+      "ranking_score": 0.01768930955373219,
+      "rank": 4,
+      "priority": false,
+      "context": {
+        "relative_volume": 0.6743830387083425,
+        "daily_return": -0.008630834323407832,
+        "volatility_20": 0.01768930955373219
+      }
+    },
+    {
+      "symbol": "QQQ",
+      "ranking_score": 0.012789951175091482,
+      "rank": 5,
+      "priority": false,
+      "context": {
+        "relative_volume": 0.9733349936109953,
+        "daily_return": -0.008494914911474472,
+        "volatility_20": 0.012789951175091482
+      }
+    },
+    {
+      "symbol": "MSFT",
+      "ranking_score": 0.0126737356951749,
+      "rank": 6,
+      "priority": false,
+      "context": {
+        "relative_volume": 0.6209453566679847,
+        "daily_return": -0.007838389999718864,
+        "volatility_20": 0.0126737356951749
+      }
+    },
+    {
+      "symbol": "AAPL",
+      "ranking_score": 0.010262432291414781,
+      "rank": 7,
+      "priority": false,
+      "context": {
+        "relative_volume": 0.8414154027011342,
+        "daily_return": -0.007057974359225949,
+        "volatility_20": 0.010262432291414781
+      }
+    },
+    {
+      "symbol": "SPY",
+      "ranking_score": 0.009231877357764639,
+      "rank": 8,
+      "priority": false,
+      "context": {
+        "relative_volume": 1.1382493535927474,
+        "daily_return": -0.0036378598541576546,
+        "volatility_20": 0.009231877357764639
+      }
+    }
+  ]
+}

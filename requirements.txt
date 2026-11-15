@@ -4,3 +4,5 @@ yfinance==0.2.66
 ipykernel==6.30.1
 nbformat==5.10.4
 nbclient==0.10.2
+scikit-learn==1.9.1
+matplotlib==3.11.2
